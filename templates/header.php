@@ -7,6 +7,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
-    <title>Document</title>
+    <title><?php echo $cim ?></title>
 </head>
 <body>

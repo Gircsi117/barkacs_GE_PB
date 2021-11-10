@@ -1,4 +1,4 @@
-<?php include 'templates/header.php' ?>
+<?php $cim = "Blog"; include 'templates/header.php' ?>
 
 <?php include 'templates/menu.php' ?>
 
