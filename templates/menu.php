@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
      <li class="nav-item">
-        <a class="nav-link alma" href="index.php">Főoldal</a>
+        <a class="nav-link" href="index.php">Főoldal</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="festekek.php">Festékek</a>
