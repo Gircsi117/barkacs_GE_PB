@@ -1,4 +1,4 @@
-<?php $cim = "Rólunk"; include 'templates/header.php' ?>
+<?php $cim = "Rólunk"; $sorszam = 5; include 'templates/header.php' ?>
 
 <?php include 'templates/menu.php' ?>
 

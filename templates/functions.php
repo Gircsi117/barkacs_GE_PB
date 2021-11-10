@@ -1,7 +1,10 @@
 <?php
 
-    function hello($nev){
-        echo "Szia $nev";
+    function active($feltetel, $oldalszam){
+        switch (($feltetel == $oldalszam)) {
+            case TRUE: echo "active"; break;
+            default: echo ""; break;
+        }
     }
 
 ?>

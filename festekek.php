@@ -1,4 +1,4 @@
-<?php $cim = "Festékek"; include 'templates/header.php' ?>
+<?php $cim = "Festékek"; $sorszam = 2; include 'templates/header.php' ?>
 
 <?php include 'templates/menu.php' ?>
 
