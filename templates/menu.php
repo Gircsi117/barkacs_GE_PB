@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <div class="container-fluid">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav nav-pills">
      <li class="nav-item">
         <a class="nav-link <?php active(1, $sorszam) ?>" href="index.php">Főoldal</a>
       </li>
