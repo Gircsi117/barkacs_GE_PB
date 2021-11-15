@@ -20,6 +20,12 @@ body{
   background-color: red;
 }
 
+.navbar img{
+  height: 50px;
+}
+
+
+
 .faanyag img, .faanyag h3{
   display: block;
 }
