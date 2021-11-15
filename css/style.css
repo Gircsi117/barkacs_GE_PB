@@ -25,7 +25,10 @@ body{
   height: 40px;
 }
 
-
+.carousel-inner h5{
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+}
 
 .faanyag img, .faanyag h3{
   display: block;
