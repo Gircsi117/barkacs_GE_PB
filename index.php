@@ -2,7 +2,7 @@
 
 <?php include 'templates/menu.php' ?>
 
-<div class="container">
+<div class="container mt-3 mb-3">
   <h1>Lorem Barkácsbolt</h1>
   <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
