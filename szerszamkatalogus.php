@@ -3,33 +3,24 @@
 <?php include 'templates/menu.php' ?>
 
 <?php
-    class Szerszam
-    {
-        public $nev;
-        public $leiras;
-
-        function __constuct($name, $text){
-            $this->$nev = $name;
-            $this->leiras = $text;
-            
-        }
-    }
-    
-    $alma = [new Szerszam("Sanyi", "Ez a leírás")]; 
+    $nevek = ["Colostok", "Csavarhúzó", "Flex", "Fűrész", "Fúró", "Kalapács", "Láncfűrész", "Mérőszalag", "Metszőolló", "Pajszer"];
+    $elerheto = ["colostok", "csavarhuzo", "flex", "furesz", "furo", "kalapacs", "lancfuresz", "meroszalag", "ollo", "pajszer"];
 ?>
 
 <div class="container mt-3 mb-3 p-3 d-flex flex-md-row flex-wrap justify-content-center">
     <div class="festek col-lg-3 col-md-4 col-sm-6 col-12 border border-1 border-dark text-start p-3">
-        <img src="img/vodor.png" alt="" class="col-12">
-        <h4>Albert beltéri falfesték alma (2 liter)</h4>
-        <p class="p-0 m-0"><span class="fw-bold">Gyártó: </span>Hat szivárvány nyrt.</p>
-        <p class="p-0 m-0"><span class="fw-bold">Felhasználás: </span>beltér</p>
-        <p class="p-0 m-0"><span class="fw-bold">Mennyiség: </span>2 liter</p>
-        <p class="p-0 m-0"><span class="fw-bold">Egységár: </span>2500 Ft/liter</p>
+        <img src="img/Szerszamok/colostok.jpg" alt="" class="col-12">
+        <h4 class="text-center">Széleskörő Colostok kínálat</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sunt obcaecati dolore aperiam animi sit quidem magnam! Voluptate nesciunt delectus doloremque corrupti officiis ex, tenetur ratione ea debitis culpa. Nostrum!</p>
+        
     </div>
     <?php
-        for ($i=1; $i < 0; $i++) { 
-            
+        for ($i=1; $i < count($nevek); $i++) { 
+            echo '<div class="festek col-lg-3 col-md-4 col-sm-6 col-12 border border-1 border-dark text-start p-3">',
+                    '<img src="img/Szerszamok/',$elerheto[$i] ,'.jpg" alt="" class="col-12">',
+                    '<h4 class="text-center">Széleskörő ',$nevek[$i] ,' kínálat</h4>',
+                    '<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sunt obcaecati dolore aperiam animi sit quidem magnam! Voluptate nesciunt delectus doloremque corrupti officiis ex, tenetur ratione ea debitis culpa. Nostrum!</p>',
+                '</div>';
         }
     ?>
 </div>
