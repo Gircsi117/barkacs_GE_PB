@@ -2,7 +2,7 @@
 
 <?php include 'templates/menu.php' ?>
 
-<div class="container mt-0 mt-sm-3 mb-0 mb-sm-3">
+<div class="container mt-0 mt-sm-3 mb-0 mb-sm-3 p-3">
     <h1>Rakj Rendet a Műhelyedben</h1>
     <div class="text-start p-5">
         <p">Egy rendezett műhely nem csak a szemnek öröm, de a munka is lényegesen hatékonyabb, gyorsabb, ha minden szerszámunk, és gépünk kéznél van. érdemes félévente, vagy akár gyakrabban átnézni,      rendszerezni,    beszerezni a praktikusabbnál praktikusabb rendszerezőket, tárolókat</p>

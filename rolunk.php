@@ -2,10 +2,11 @@
 
 <?php include 'templates/menu.php' ?>
 
-<div class="container mt-0 mt-sm-3 mb-0 mb-sm-3">
-<h1>Rólunk</h1>
+<div class="container mt-0 mt-sm-3 mb-0 mb-sm-3 p-3">
+    <h1>Rólunk</h1>
     <div class="text-start">
         <p class="pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus atque impedit repudiandae blanditiis magni autem, eum itaque modi necessitatibus, quam ducimus pariatur nulla perspiciatis neque porro amet sapiente accusantium eaque?</p>
+        <hr id="vonal">
         <div class="d-flex flex-column bd-highlight mb-3">
             <div class="d-flex p-2 bd-highlight flex-column flex-md-row">
                 <img src="img/erik.png" class="img-fluid col-12 col-md-3" alt="Gilián Erik">

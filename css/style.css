@@ -51,6 +51,7 @@ body{
 }
 
 .elvalaszto{
+  border-radius: 5px;
   border: 3px solid black;
   opacity: 100%;
   width: 90%;
@@ -75,6 +76,7 @@ h5{
 
 .szerszam h4{
   width: 100%;
+  margin: 15px 0px;
 }
 
 .szerszam button{
@@ -82,4 +84,16 @@ h5{
   display: block;
   position: relative;
   bottom: 0;
+}
+
+#vonal{
+  border: 3px solid black;
+  border-radius: 5px;
+  opacity: 100%;
+}
+
+@media (min-width: 576px){
+  .container{
+    border-radius: 10px;
+  }
 }
