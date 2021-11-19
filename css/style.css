@@ -68,3 +68,18 @@ body{
 h5{
   font-size: 2rem;
 }
+
+.szerszam{
+  display: flex;
+}
+
+.szerszam h4{
+  width: 100%;
+}
+
+.szerszam button{
+  margin-top: auto;
+  display: block;
+  position: relative;
+  bottom: 0;
+}
