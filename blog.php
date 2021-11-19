@@ -2,7 +2,7 @@
 
 <?php include 'templates/menu.php' ?>
 
-<div class="container text-start mt-3 mb-3">
+<div class="container text-start mt-0 mt-sm-3 mb-0 mb-sm-3">
 <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste voluptas soluta! Laudantium ipsam explicabo molestias, nihil recusandae modi ducimus velit vel possimus illo. Facilis debitis est magnam dolore vitae?
 Animi, est. Nesciunt corporis possimus ipsum eligendi velit earum excepturi eos aliquid, sunt laudantium ad ullam dolorem voluptate necessitatibus enim nobis molestias! Optio itaque reprehenderit dolorum dolorem natus aliquam blanditiis!
 Officia, hic eius vitae dolor maiores sequi iusto et libero nobis a rem dignissimos veritatis inventore sapiente corrupti ex perspiciatis earum amet, ut delectus ad fugit quaerat nam fugiat. Deleniti!

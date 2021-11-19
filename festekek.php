@@ -6,7 +6,7 @@
     $szinek = ["Abszintzöld", "Acélkék", "Áfonyakék", "Áfonyavörös", "Agyagszín", "Akáclila", "Akvamarinkék", "Almazöld", "Angyalszőke", "Anlinkék", "Aranyrokker", "Aranysárga", "Bronzvörös", "Búzasárga", "Cédruszöld", "Chilivörös", "Ciklámenszín", "Hínárzöld", "Holdezüst", "Homokszín", "Zsetfekete", "Rubinvörös", "Sajtsárga"];
 ?>
 
-<div class="container mt-3 mb-3 p-3 d-flex flex-md-row flex-wrap justify-content-center">
+<div class="container mt-0 mt-sm-3 mb-0 mb-sm-3 p-3 d-flex flex-md-row flex-wrap justify-content-center">
     <div class="festek col-lg-3 col-md-4 col-sm-6 col-12 border border-1 border-dark text-start p-3">
         <img src="img/vodor.png" alt="" class="col-12">
         <h4>Albert beltéri falfesték <?php echo $szinek[0]?> (2 liter)</h4>

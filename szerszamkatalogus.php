@@ -7,7 +7,7 @@
     $elerheto = ["colostok", "csavarhuzo", "flex", "furesz", "furo", "kalapacs", "lancfuresz", "meroszalag", "ollo", "pajszer"];
 ?>
 
-<div class="container mt-3 mb-3 p-3 d-flex flex-md-row flex-wrap justify-content-center">
+<div class="container mt-0 mt-sm-3 mb-0 mb-sm-3 p-3 d-flex flex-md-row flex-wrap justify-content-center">
     <div class="festek col-lg-3 col-md-4 col-sm-6 col-12 border border-1 border-dark text-start p-3">
         <img src="img/Szerszamok/colostok.jpg" alt="" class="col-12">
         <h4 class="text-center">Széleskörő Colostok kínálat</h4>

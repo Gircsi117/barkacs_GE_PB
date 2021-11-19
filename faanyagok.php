@@ -7,7 +7,7 @@
     $img = "rounded-circle col-7 col-md-10";
 ?>
 
-    <div class="container mt-3 mb-3">
+    <div class="container mt-0 mt-sm-3 mb-0 mb-sm-3">
         <div class="d-flex flex-column flex-md-row flex-wrap align-content-start">
             <div class="<?php echo $imgdiv ?>">
                 <img src="img/bukk.jpg" alt="" class="<?php echo $img ?>">

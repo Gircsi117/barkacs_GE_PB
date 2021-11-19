@@ -2,7 +2,7 @@
 
 <?php include 'templates/menu.php' ?>
 
-<div class="container mt-3 mb-3">
+<div class="container mt-0 mt-sm-3 mb-0 mb-sm-3">
 <h1>Rólunk</h1>
     <div class="text-start">
         <p class="pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus atque impedit repudiandae blanditiis magni autem, eum itaque modi necessitatibus, quam ducimus pariatur nulla perspiciatis neque porro amet sapiente accusantium eaque?</p>
