@@ -97,3 +97,10 @@ h5{
     border-radius: 10px;
   }
 }
+
+.fix_fent{
+  z-index: 150000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
