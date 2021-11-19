@@ -43,10 +43,6 @@
     </button>
   </div>
   <h3 class="py-3">Üdvözöljük barkács üzletünk weboldalán</h3>
-  <p class="py-3">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nam ducimus veniam commodi neque tempore cum repudiandae tenetur aspernatur corporis dolore cumque in modi qui officiis, ipsa voluptate perferendis impedit.
-  Laudantium est sit, excepturi autem consectetur voluptatibus sunt veritatis qui laboriosam officiis quo corporis repudiandae veniam dolores deleniti molestias praesentium cumque enim omnis architecto possimus. Consectetur culpa libero nihil eum.
-  </p>
 </div>
 
 <?php include 'templates/footer.php' ?>
