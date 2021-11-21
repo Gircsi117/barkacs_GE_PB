@@ -1,5 +1,4 @@
 var faanyagok = document.getElementsByClassName('faanyag_gomb');
-var menu = document.getElementById("menu");
 
 for (let i = 0; i < faanyagok.length; i++) {
     faanyagok[i].addEventListener("click", ()=>{
@@ -22,12 +21,3 @@ for (let i = 0; i < faanyagok.length; i++) {
         }
     })
 }
-
-document.addEventListener("scroll", ()=>{
-    if (window.scrollY > 50) {
-        menu.classList.add("fix_fent")
-    }
-    else{
-        menu.classList.remove("fix_fent");
-    }
-})
