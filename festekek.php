@@ -5,9 +5,9 @@
 <?php
     $szinnev = ["Abszintzöld", "Acélkék", "Áfonyakék", "Áfonyavörös", "Agyagszín", "Akáclila", "Akvamarinkék", "Almazöld", "Angyalszőke", "Anlinkék", "Aranyrokker", "Aranysárga", "Bronzvörös", "Búzasárga", "Cédruszöld", "Chilivörös", "Ciklámenszín", "Hínárzöld", "Holdezüst", "Homokszín", "Zsetfekete", "Rubinvörös", "Sajtsárga"];
 
-    $szinek = [
+    $filter = [
         "filter: invert(58%) sepia(12%) saturate(3223%) hue-rotate(67deg) brightness(99%) contrast(77%)",
-        "filter: invert(93%) sepia(4%) saturate(5073%) hue-rotate(170deg) brightness(86%) contrast(86%)",
+        "filter: invert(88%) sepia(8%) saturate(1423%) hue-rotate(167deg) brightness(86%) contrast(87%)",
         "filter: invert(50%) sepia(21%) saturate(927%) hue-rotate(188deg) brightness(94%) contrast(84%)",
         "filter: invert(17%) sepia(79%) saturate(2968%) hue-rotate(340deg) brightness(88%) contrast(101%)",
         "filter: invert(50%) sepia(24%) saturate(240%) hue-rotate(8deg) brightness(93%) contrast(97%)",
@@ -35,7 +35,7 @@
 <div class="container mt-0 mt-sm-3 mb-0 mb-sm-3 p-3 d-flex flex-md-row flex-wrap justify-content-center">
     <div class="festek col-lg-3 col-md-4 col-sm-6 col-12 border border-1 border-dark text-start">
         <img src="img/vodor.png" alt="" class="col-12" style="">
-        <img src="img/vodor.png" alt="" class="col-12 vodor_kep" style="<?php echo $szinek[0]?>">
+        <img src="img/vodor.png" alt="" class="col-12 vodor_kep" style="<?php echo $filter[0]?> opacity(40%);">
         <h4 class="ps-2 pe-2 m-0 text-center">Albert beltéri falfesték <?php echo $szinnev[0]?> (2 liter)</h4>
         <p class="ps-3 pe-3 m-0"><span class="fw-bold">Gyártó: </span>Hat szivárvány nyrt.</p>
         <p class="ps-3 pe-3 m-0"><span class="fw-bold">Felhasználás: </span>beltér</p>
@@ -43,15 +43,17 @@
         <p class="ps-3 pe-3 m-0"><span class="fw-bold">Egységár: </span>2500 Ft/liter</p>
     </div>
     <?php
-        /*for ($i=1; $i < count($szinnev); $i++) { 
-            $elem = $szinnev[$i];
-            echo '<div class="festek col-lg-3 col-md-4 col-sm-6 col-12 border border-1 border-dark text-start p-3">',
-            '<img src="img/vodor.png" alt="" class="col-12">',
-            '<h4>Albert beltéri falfesték ', $elem, ' (2 liter)</h4>',
-            '<p class="p-0 m-0"><span class="fw-bold">Gyártó: </span>Hat szivárvány nyrt.</p>',
-            '<p class="p-0 m-0"><span class="fw-bold">Felhasználás: </span>beltér</p><p class="p-0 m-0"><span class="fw-bold">Mennyiség: </span> ', 2,' liter</p>',
-            '<p class="p-0 m-0"><span class="fw-bold">Egységár: </span>2500 Ft/liter</p></div>';
-        }*/
+        for ($i=0; $i < count($szinnev); $i++) { 
+            echo '<div class="festek col-lg-3 col-md-4 col-sm-6 col-12 border border-1 border-dark text-start">',
+                    '<img src="img/vodor.png" alt="" class="col-12" style="">',
+                    /*'<img src="img/vodor.png" alt="" class="col-12 vodor_kep" style="', $filter[$i],';">',*/
+                    '<h4 class="ps-2 pe-2 m-0 text-center">Albert beltéri falfesték ', $szinnev[$i],' (2 liter)</h4>',
+                    '<p class="ps-3 pe-3 m-0"><span class="fw-bold">Gyártó: </span>Hat szivárvány nyrt.</p>',
+                    '<p class="ps-3 pe-3 m-0"><span class="fw-bold">Felhasználás: </span>beltér</p>',
+                    '<p class="ps-3 pe-3 m-0"><span class="fw-bold">Mennyiség: </span>2 liter</p>',
+                    '<p class="ps-3 pe-3 m-0"><span class="fw-bold">Egységár: </span>2500 Ft/liter</p>',
+                '</div>';
+        }
     ?>
 </div>
 
