@@ -3,7 +3,9 @@
 <?php include 'templates/menu.php' ?>
 
 <?php
-    $szinnev = ["Abszintzöld", "Acélkék", "Áfonyakék", "Áfonyavörös", "Agyagszín", "Akáclila", "Akvamarinkék", "Almazöld", "Angyalszőke", "Anlinkék", "Aranyrokker", "Aranysárga", "Bronzvörös", "Búzasárga", "Cédruszöld", "Chilivörös", "Ciklámenszín", "Hínárzöld", "Holdezüst", "Homokszín", "Zsetfekete", "Rubinvörös", "Sajtsárga"];
+    $szinnev = ["Abszintzöld", "Acélkék", "Áfonyakék", "Áfonyavörös", "Agyagszín", "Akáclila", "Akvamarinkék", "Almazöld", "Angyalszőke", "Anilinkék", "Aranyokker", "Aranysárga", "Bronzvörös", "Búzasárga", "Cédruszöld", "Chilivörös", "Ciklámenszín", "Hínárzöld", "Holdezüst", "Homokszín", "Zsetfekete", "Rubinvörös", "Sajtsárga"];
+
+    $szinkod = ["#3DB42E", "#9ABFCF", "#6A7DB8", "#B21827", "#827C69", "#CFB0F2", "#C4F6F7", "#CFF6AB", "#FFF1CF", "#6090C0", "#D18C03", "#FBE996", "#934B28", "#FAD27B", "#5D9A7C", "Chilivörös", "#EB73EB", "#7BB45E", "#EFEFF9", "#CCC3BA", "#151516", "#BE184F", "#F6EAA5"];
 
     $filter = [
         "filter: invert(58%) sepia(12%) saturate(3223%) hue-rotate(67deg) brightness(99%) contrast(77%)",
@@ -32,27 +34,10 @@
     ];
 ?>
 
-<div class="container mt-0 mt-sm-3 mb-0 mb-sm-3 p-3 d-flex flex-md-row flex-wrap justify-content-center">
-    <div class="festek col-lg-3 col-md-4 col-sm-6 col-12 border border-1 border-dark text-start">
-        <img src="img/vodor.png" alt="" class="col-12" style="">
-        <img src="img/vodor.png" alt="" class="col-12 vodor_kep" style="<?php echo $filter[0]?> opacity(40%);">
-        <h4 class="ps-2 pe-2 m-0 text-center">Albert beltéri falfesték <?php echo $szinnev[0]?> (2 liter)</h4>
-        <p class="ps-3 pe-3 m-0"><span class="fw-bold">Gyártó: </span>Hat szivárvány nyrt.</p>
-        <p class="ps-3 pe-3 m-0"><span class="fw-bold">Felhasználás: </span>beltér</p>
-        <p class="ps-3 pe-3 m-0"><span class="fw-bold">Mennyiség: </span>2 liter</p>
-        <p class="ps-3 pe-3 m-0"><span class="fw-bold">Egységár: </span>2500 Ft/liter</p>
-    </div>
+<div class="container mt-0 mt-sm-3 mb-0 mb-sm-3 p-3 d-flex flex-md-row flex-wrap justify-content-center"> 
     <?php
-        for ($i=0; $i < count($szinnev); $i++) { 
-            echo '<div class="festek col-lg-3 col-md-4 col-sm-6 col-12 border border-1 border-dark text-start">',
-                    '<img src="img/vodor.png" alt="" class="col-12" style="">',
-                    /*'<img src="img/vodor.png" alt="" class="col-12 vodor_kep" style="', $filter[$i],';">',*/
-                    '<h4 class="ps-2 pe-2 m-0 text-center">Albert beltéri falfesték ', $szinnev[$i],' (2 liter)</h4>',
-                    '<p class="ps-3 pe-3 m-0"><span class="fw-bold">Gyártó: </span>Hat szivárvány nyrt.</p>',
-                    '<p class="ps-3 pe-3 m-0"><span class="fw-bold">Felhasználás: </span>beltér</p>',
-                    '<p class="ps-3 pe-3 m-0"><span class="fw-bold">Mennyiség: </span>2 liter</p>',
-                    '<p class="ps-3 pe-3 m-0"><span class="fw-bold">Egységár: </span>2500 Ft/liter</p>',
-                '</div>';
+        for ($i=0; $i < count($szinnev); $i++) {
+            include 'templates/festek_minta.php';
         }
     ?>
 </div>
