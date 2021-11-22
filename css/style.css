@@ -97,3 +97,13 @@ h5{
     border-radius: 10px;
   }
 }
+
+.festek{
+  position: relative;
+}
+
+.vodor_kep{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
