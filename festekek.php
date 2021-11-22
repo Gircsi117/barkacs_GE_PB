@@ -5,7 +5,7 @@
 <?php
     $szinnev = ["Abszintzöld", "Acélkék", "Áfonyakék", "Áfonyavörös", "Agyagszín", "Akáclila", "Akvamarinkék", "Almazöld", "Angyalszőke", "Anilinkék", "Aranyokker", "Aranysárga", "Bronzvörös", "Búzasárga", "Cédruszöld", "Chilivörös", "Ciklámenszín", "Hínárzöld", "Holdezüst", "Homokszín", "Zsetfekete", "Rubinvörös", "Sajtsárga"];
 
-    $szinkod = ["#3DB42E", "#9ABFCF", "#6A7DB8", "#B21827", "#827C69", "#CFB0F2", "#C4F6F7", "#CFF6AB", "#FFF1CF", "#6090C0", "#D18C03", "#FBE996", "#934B28", "#FAD27B", "#5D9A7C", "Chilivörös", "#EB73EB", "#7BB45E", "#EFEFF9", "#CCC3BA", "#151516", "#BE184F", "#F6EAA5"];
+    $szinkod = ["#3DB42E", "#9ABFCF", "#6A7DB8", "#B21827", "#827C69", "#CFB0F2", "#C4F6F7", "#CFF6AB", "#FFF1CF", "#6090C0", "#D18C03", "#FBE996", "#934B28", "#FAD27B", "#5D9A7C", "#F11914", "#EB73EB", "#7BB45E", "#EFEFF9", "#CCC3BA", "#151516", "#BE184F", "#F6EAA5"];
 
     $filter = [
         "filter: invert(58%) sepia(12%) saturate(3223%) hue-rotate(67deg) brightness(99%) contrast(77%)",
