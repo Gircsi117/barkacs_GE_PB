@@ -98,12 +98,6 @@ h5{
   opacity: 100%;
 }
 
-@media (min-width: 576px){
-  .container{
-    border-radius: 10px;
-  }
-}
-
 .festek{
   position: relative;
 }
@@ -112,4 +106,23 @@ h5{
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.rolunk h1{
+  color: white;
+  padding: 5px 15px;
+  border-radius: 15px;
+  display: block;
+}
+
+@media (min-width: 576px){
+  .container{
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .rolunk h1{
+    border-radius: 0px 0px 15px 15px;
+  }
 }
