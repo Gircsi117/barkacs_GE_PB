@@ -9,18 +9,18 @@
 <center>
 <h1>Árajánlat igénylése</h1>
 <br>
-<form>
+<form onsubmit="arajanlat()">
     <div class="form-floating mb-3 w-50">
         <input type="text" class="form-control" id="nev" placeholder="">
         <label for="nev">Név: </label>
     </div>
     <div class="form-floating mb-3 w-50">
         <input type="email" class="form-control" id="email" placeholder="">
-        <label for="floatingText">E-mail: </label>
+        <label for="email">E-mail: </label>
     </div>
     <div class="form-floating mb-3 w-50">
-        <input type="telefon" class="form-control" id="telefon" placeholder="+36">
-        <label for="floatingText">Telefon: </label>
+        <input type="tel" class="form-control" id="telefon" placeholder="">
+        <label for="telefon">Telefon: </label>
     </div>
     <div class="form-floating mb-3 w-50">
         <select class="form-select pb-1" id="szerszamok">
@@ -32,7 +32,7 @@
         ?>
     </select>
     <label for="szerszamok">Szerszám: </label>
-    <button type="submit" class="btn btn-primary float-end my-4"><a href="szerszamkatalogus.php" onClick='alert("Az igénylést elküldtük")' style="text-decoration: none; color: white;">Igénylés</a></button>
+    <button type="submit" class="btn btn-primary float-end my-4">Igénylés</button>
     </div>
 </form>
 </center>

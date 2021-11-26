@@ -21,3 +21,18 @@ for (let i = 0; i < faanyagok.length; i++) {
         }
     })
 }
+
+
+function arajanlat(){
+    let nev = document.getElementById('nev').value;
+    let email = document.getElementById('email').value;
+    let telefon = document.getElementById('telefon').value;
+    let szerszamok = document.getElementById('szerszamok').value;
+
+    if(nev != '' && email != '' && telefon != '' && szerszamok != 'Válaszon egy kategóriát!'){
+        alert('Sikeresen elküldtük!');
+    }
+    else{
+        alert('Töltse ki a mezőket!');
+    }
+}
