@@ -62,6 +62,10 @@ body{
   padding: 10px;
 }
 
+.faanyag_table td{
+  text-align: left;
+}
+
 .faanyag_table tr:nth-child(2n){
   background-color: rgba(255, 255, 255, 0.9);
 }
