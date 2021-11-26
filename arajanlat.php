@@ -23,6 +23,10 @@
         <label for="telefon">Telefon: </label>
     </div>
     <div class="form-floating mb-3 w-50">
+        <input type="number" class="form-control" id="darab" placeholder="" min="1">
+        <label for="telefon">Darab szám: </label>
+    </div>
+    <div class="form-floating mb-3 w-50">
         <select class="form-select pb-1" id="szerszamok">
         <option selected>Válaszon egy kategóriát!</option>
         <?php 
