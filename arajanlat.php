@@ -9,7 +9,7 @@
 <center>
 <h1>Árajánlat igénylése</h1>
 <br>
-<form onsubmit="arajanlat()">
+<form id = "ajanlat">
     <div class="form-floating mb-3 col-12 col-md-6">
         <input type="text" class="form-control" id="nev" placeholder="">
         <label for="nev">Név: </label>

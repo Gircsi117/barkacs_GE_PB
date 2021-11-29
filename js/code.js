@@ -22,8 +22,9 @@ for (let i = 0; i < faanyagok.length; i++) {
     })
 }
 
+document.getElementById('ajanlat').onsubmit = (event)=>{
+    event.preventDefault();
 
-function arajanlat(){
     let nev = document.getElementById('nev').value;
     let email = document.getElementById('email').value;
     let telefon = document.getElementById('telefon').value;
@@ -31,6 +32,8 @@ function arajanlat(){
 
     if(nev != '' && email != '' && telefon != '' && szerszamok != 'Válaszon egy kategóriát!'){
         alert('Sikeresen elküldtük!');
+        window.location.href = `./index.php?`
+        
     }
     else{
         alert('Töltse ki a mezőket!');
